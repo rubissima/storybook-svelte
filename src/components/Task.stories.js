@@ -11,7 +11,6 @@ export default {
   component: Task,
   title: 'Task',
   excludeStories: /.*Data$/,
-  //👇 The argTypes are included so that they are properly displayed in the Actions Panel
   argTypes: {
     onPinTask: { action: 'onPinTask' },
     onArchiveTask: { action: 'onArchiveTask' },
