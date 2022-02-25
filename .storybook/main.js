@@ -1,7 +1,14 @@
-// .storybook/main.js
-
 module.exports = {
-  stories: ['../src/components/**/*.stories.js'],
-  staticDirs: ['../public'],
-  addons: ['@storybook/addon-actions', '@storybook/addon-links', '@storybook/addon-interactions'],
+  stories: [
+    // "../src/**/*.stories.mdx",
+    // "../src/**/*.stories.@(js|jsx|ts|tsx|svelte)",
+    '../src/components/**/*.stories.js'
+  ],
+  staticDirs: ["../public"],
+  addons: [
+    "@storybook/addon-links",
+    "@storybook/addon-essentials",
+    "@storybook/addon-svelte-csf",
+    "@storybook/addon-interactions",
+  ],
 };
