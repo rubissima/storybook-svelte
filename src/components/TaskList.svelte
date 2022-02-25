@@ -6,7 +6,7 @@
     //👇 Reactive declarations (computed prop in other frameworks)
     $: noTasks = tasks.length === 0;
     $: emptyTasks = noTasks && !loading;
-  </script>
+</script>
   {#if loading}
     <div class="list-items">loading</div>
   {/if}
