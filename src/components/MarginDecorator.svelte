@@ -4,6 +4,6 @@
   
   <style>
     div {
-      margin: 3em;
+      margin: 3.2em;
     }
   </style>
